@@ -1,0 +1,151 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and font settings */
+body {
+    background-image: url("MRI.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333; /* Darker color for better readability */
+
+}
+
+/* Navigation bar styling */
+nav {
+    padding: 1rem;
+    background-color: #09303b;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 3rem;
+    color: #a2eafe;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #7cc0d3;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline; /* Optional: underline on hover for better UX */
+}
+
+/* Section styling for index.html */
+.Stroke-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start */
+    padding: 2rem;
+    max-width: 1200px; /* Restrict max-width for better readability */
+    margin: 0 auto; /* Center align the section */
+}
+
+.Stroke-info {
+    width: 60%; /* Adjust width to fit content and image */
+}
+
+.Stroke-info h3 {
+    font-size: 3rem;
+    color: #333;
+    margin-top: 2rem; /* Adjust margin for better alignment */
+    margin-bottom: 1rem;
+}
+
+.Stroke-info p {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0; /* Adjust margins for spacing */
+    line-height: 1.6;
+}
+
+.Stroke-info .learn-more {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #007BFF;
+    text-decoration: none;
+    border: 2px solid #007BFF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 2rem; /* Add margin for spacing */
+}
+
+.Stroke-info .learn-more:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Styling for images */
+.Stroke-img {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Stroke-img img {
+    width: 100%;
+    margin-bottom: 1rem; /* Space between images */
+}
+
+/* Styling for learn-more.html */
+.learn-more {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+}
+
+.learn-more-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.learn-more-content h3 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.learn-more-content p {
+    font-size: 1.5rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.learn-more-content a {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #007BFF;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #007BFF;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.learn-more-content a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
