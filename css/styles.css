@@ -142,3 +142,39 @@ nav {
     background-color: #007BFF;
     color: #fff;
 }
+
+.how-to-use {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9; 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-to-use h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.instruction-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.instruction-step img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+.instruction-step p {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
