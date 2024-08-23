@@ -104,10 +104,12 @@ nav {
 }
 
 .how-to-use {
-    padding: 2rem;
+    margin-top: 1rem;
+    padding: 2rem 0;
     background-color: #f9f9f9;
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .how-to-use h2 {
@@ -121,12 +123,12 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .instruction-step img {
-    width: 50%;
-    max-width: 150px;
+    width: 70%;
+    max-width: 250px;
     margin-bottom: 0.5rem;
 }
 
