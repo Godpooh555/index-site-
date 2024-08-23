@@ -104,12 +104,10 @@ nav {
 }
 
 .how-to-use {
-    margin-top: 1rem;
-    padding: 2rem 0;
+    padding: 2rem;
     background-color: #f9f9f9;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .how-to-use h2 {
