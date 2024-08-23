@@ -1,20 +1,16 @@
-/* General reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Background and font settings */
 body {
     background-image: url("MRI.PNG");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #333; /* Darker color for better readability */
-
+    color: #333;
 }
 
-/* Navigation bar styling */
 nav {
     padding: 1rem;
     background-color: #09303b;
@@ -49,34 +45,33 @@ nav {
 }
 
 .menu li a:hover {
-    text-decoration: underline; /* Optional: underline on hover for better UX */
+    text-decoration: underline;
 }
 
-/* Section styling for index.html */
 .Stroke-con {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the start */
+    align-items: flex-start;
     padding: 2rem;
-    max-width: 1200px; /* Restrict max-width for better readability */
-    margin: 0 auto; /* Center align the section */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .Stroke-info {
-    width: 60%; /* Adjust width to fit content and image */
+    width: 60%;
 }
 
 .Stroke-info h3 {
     font-size: 3rem;
     color: #333;
-    margin-top: 2rem; /* Adjust margin for better alignment */
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
 .Stroke-info p {
     font-size: 1.5rem;
     color: #333;
-    margin: 1rem 0; /* Adjust margins for spacing */
+    margin: 1rem 0;
     line-height: 1.6;
 }
 
@@ -88,7 +83,7 @@ nav {
     border: 2px solid #007BFF;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    margin-top: 2rem; /* Add margin for spacing */
+    margin-top: 2rem;
 }
 
 .Stroke-info .learn-more:hover {
@@ -96,7 +91,6 @@ nav {
     color: #fff;
 }
 
-/* Styling for images */
 .Stroke-img {
     width: 35%;
     display: flex;
@@ -106,13 +100,12 @@ nav {
 
 .Stroke-img img {
     width: 100%;
-    margin-bottom: 1rem; /* Space between images */
+    margin-bottom: 1rem;
 }
 
-/* Styling for learn-more.html */
 .learn-more {
     padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .learn-more-content {
