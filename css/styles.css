@@ -103,77 +103,37 @@ nav {
     margin-bottom: 1rem;
 }
 
-.learn-more {
-    padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.learn-more-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-.learn-more-content h3 {
-    font-size: 3rem;
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-.learn-more-content p {
-    font-size: 1.5rem;
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
-
-.learn-more-content a {
-    display: inline-block;
-    font-size: 1.5rem;
-    color: #007BFF;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    border: 2px solid #007BFF;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.learn-more-content a:hover {
-    background-color: #007BFF;
-    color: #fff;
-}
-
 .how-to-use {
-    margin-top: 2rem;
-    padding: 2rem;
-    background-color: #f9f9f9; 
+    margin-top: 1rem;
+    padding: 2rem 0;
+    background-color: #f9f9f9;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .how-to-use h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #333;
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .instruction-step {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .instruction-step img {
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 1rem;
+    width: 80%;
+    max-width: 200px;
+    margin-bottom: 0.5rem;
 }
 
 .instruction-step p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #333;
     text-align: center;
     margin: 0;
