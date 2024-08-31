@@ -20,6 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo a {
@@ -33,6 +34,7 @@ nav {
     list-style: none;
     align-items: center;
     font-size: 2rem;
+    flex-direction: row;
 }
 
 .menu li {
@@ -46,6 +48,15 @@ nav {
 
 .menu li a:hover {
     text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 2rem;
+    color: #a2eafe;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .Stroke-con {
@@ -137,4 +148,25 @@ nav {
     color: #333;
     text-align: center;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .nav-con {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
 }
