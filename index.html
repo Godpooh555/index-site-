@@ -14,6 +14,8 @@
                 <div class="logo">
                     <a href="index.html">SMART-IC</a>
                 </div>
+                <!-- Toggle button for mobile view -->
+                <button class="nav-toggle" onclick="toggleMenu()">☰</button>
                 <ul class="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="https://huggingface.co/spaces/Krishteenun/SMART-IC" target="_blank">Analysis</a></li>
@@ -41,5 +43,11 @@
         </div>
     </section>
 
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>
